@@ -1,0 +1,148 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Steve's Designs - Portfolio</title>
+<link href="css/reset.css" rel="stylesheet" type="text/css" media="screen">
+<link href="css/main.css" rel="stylesheet" type="text/css" media="screen">
+<link href='http://fonts.googleapis.com/css?family=Hammersmith+One' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="css/jquery.fancybox-1.3.4.css" type="text/css" media="screen" />
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.min.js"></script>
+<script type="text/javascript" src="js/jquery.fancybox-1.3.4.pack.js"></script>
+<script type="text/javascript" src="js/jquery.easing-1.3.pack.js"></script>
+<script type="text/javascript" src="js/jquery-selector.js"></script>
+<!--[if lt IE 9]>
+<script src="js/html5shiv.js"></script>
+<![endif]-->
+</head>
+<body>
+<header>
+	<div id="logoBoxDesign">
+    <h1 class="hidden">Logo</h1>
+    	<img src="images/steveslogo.png" id="logo" alt="Logo">
+    </div>
+    
+    <div id="bannerDesign">
+    	<h1>Portfolio</h1>
+    </div>
+</header>
+    
+<div id="container">
+	<h1 class="hidden">Navigation</h1>
+    <ul id="menuDesign">
+        <li>
+        	<a href="index.html">
+                <div class="content">
+                	<h2 class="main">Home</h2>
+                    <h3 class="sub">The Front Page</h3>
+                </div>
+            </a>
+        </li>
+        
+        <li>
+        	<a href="about.html">
+                <div class="content">
+                	<h2 class="main">About</h2>
+                    <h3 class="sub">Learn More</h3>
+                </div>
+            </a>
+        </li>
+        
+        <li>
+        	<a href="#">
+                <div class="content">
+                	<h2 class="main">Portfolio</h2>
+                    <h3 class="sub">Our Content</h3>
+                </div>
+            </a>
+        </li>
+        
+        <li>
+        	<a href="contact.html">
+                <div class="content">
+                	<h2 class="main">Contact</h2>
+                    <h3 class="sub">Contact Us</h3>
+                </div>
+            </a>
+        </li>
+    </ul>
+</div>
+
+<section id="photography">
+<h1>Photography</h1>
+	<div class="designs">
+		<div class="designImage">
+			<a class="single_image" href="images/dialMacro-large.jpg"><img src="images/dialMacro.jpg" alt="Dial Macro"></a>
+    	</div>
+    
+    	<div class="designImage">
+    		<a class="single_image" href="images/fenderWall-large.jpg"><img src="images/fenderWall.jpg" alt="Wall of Fenders"></a>
+    	</div>
+    
+    	<div class="designImage">
+    		<a class="single_image" href="images/gibsonWall-large.jpg"><img src="images/gibsonWall.jpg" alt="Wall of Gidbsons"></a>
+    	</div>
+    
+    	<div class="designImage">
+    		<a class="single_image" href="images/guitarheadMacro-large.jpg"><img src="images/guitarheadMacro.jpg" alt="Guitar Head Macro"></a>
+    	</div>
+    
+    	<div class="designImage">
+    		<a class="single_image" href="images/hardrockPick-large.jpg"><img src="images/hardrockPick.jpg" alt="Hard Rock Pick"></a>
+    	</div>
+    
+    	<div class="designImage">
+    		<a class="single_image" href="images/acousticDof-large.jpg"><img src="images/acousticDof.jpg" alt="Acoustic Depth of Field"></a>
+    	</div>
+	</div>
+</section>
+
+<section id="designGallery">
+<h1>Designs</h1>
+	<div class="designs">
+		<div class="designImage">
+			<a class="single_image" href="images/birthdayinvitationLarge.jpg"><img src="images/birthdayinvitationthumbnail.jpg" alt="Birthday Invitation"></a>
+    	</div>
+    
+    	<div class="designImage">
+    		<a class="single_image" href="images/ryanLarge.jpg"><img src="images/ryanthumbnail.jpg" alt="Ryan Poster"></a>
+    	</div>
+    
+    	<div class="designImage">
+    		<a class="single_image" href="images/nukacolaLarge.jpg"><img src="images/nukacolathumbnail.jpg" alt="Nuka Cola"></a>
+    	</div>
+	</div>
+</section>
+
+<div id="respond">
+	<h3>Leave a comment</h3>
+    
+    <form action="post_comment.php" method="post" id="commentform">
+    	<label for="comment_author" class="required">Your name</label>
+        <input type="text" name="comment_author" id="comment_author" value="" tabindex="1" required>
+        
+        <label for="comment" class="required">Your message></label>
+        <textarea name="comment" id="comment" rows="10" tabindex="4" required></textarea>
+        
+        <input type="hidden" name="comment_post_ID" value="1" id="comment_post_ID">
+        <input name="submit" type="submit" value="Submit comment">
+    </form>
+</div>
+
+<footer id="footerDesigns">
+<h1 class="hidden">Footer</h1>
+	<ul id="footerText">
+    	<li><a href="index.html">Home</a></li>
+    	<li><a href="about.html">About</a></li>
+    	<li><a href="#">Portfolio</a></li>
+    	<li><a href="contact.html">Contact</a></li>
+    </ul>
+    
+    <div id="footerCopyright">
+    <h1>Copyright 2014<br>All Rights Reserved</h1>
+    </div>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>
